@@ -1,0 +1,26 @@
+This project is a command-based console application designed to manage apartment expenses efficiently. Built with a modular structure, it separates the user interface, functionality, and application logic, ensuring clarity and maintainability. The system supports adding, modifying, filtering, and undoing expense operations while handling errors gracefully.
+
+Key Features:
+Expense Management:
+
+Add, remove, and replace expenses by apartment, type, or range.
+Commands include add, remove, replace, and list.
+Data Display:
+
+Use texttable for clear tabular representation.
+Filter and display expenses by type or amount with conditions (<, =, >).
+Undo Functionality:
+
+Reverse modifications step by step, ensuring data integrity.
+Error Handling:
+
+Validates inputs and handles errors without crashing.
+Preloaded Data:
+
+Starts with 10 random expenses for quick testing.
+Learning Outcomes:
+Modular programming with clean separation of logic and UI.
+Effective use of Python’s data structures (list, dict) and exception handling.
+Implementation of undo and filtering for robust user experience.
+Tabular data representation with third-party libraries.
+This assignment offers hands-on experience in designing a practical and user-friendly expense management system.
