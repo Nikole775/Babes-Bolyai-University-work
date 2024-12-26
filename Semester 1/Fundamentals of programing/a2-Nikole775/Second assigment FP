@@ -1,0 +1,49 @@
+This assignment demonstrates the implementation of two fundamental sorting algorithms—Bubble Sort and Heap Sort—in a dynamic and user-friendly program. The program allows users to generate random lists, sort them, and visualize the sorting steps, providing a hands-on way to understand sorting mechanics.
+
+Features:
+
+Interactive Menu:
+
+A user-friendly menu allows users to:
+Generate a list of random numbers.
+Sort the list using Bubble Sort or Heap Sort.
+Exit the program.
+Generate Random Numbers:
+
+Creates a list of n random integers between 0 and 100.
+Gives users control over the size of the list.
+Bubble Sort with Step-by-Step Visualization:
+
+Implements the Bubble Sort algorithm to iteratively arrange elements in ascending order.
+Users can specify the step frequency (s), showing the intermediate states of the list during sorting.
+Heap Sort with Step-by-Step Visualization:
+
+Builds a max heap and sorts the list using Heap Sort.
+Displays intermediate states based on user-defined step frequency (s).
+Robust Input Handling:
+
+Ensures that only valid options are selected from the menu.
+Prevents sorting operations unless a list has been generated.
+Skills Demonstrated:
+
+Implementation of sorting algorithms: Bubble Sort (simple and intuitive) and Heap Sort (efficient and optimized).
+Use of recursive functions (in Heap Sort) for heapifying the list.
+Dynamic list generation using Python’s random module.
+Input validation and exception handling for a smooth user experience.
+Modular programming: Separate functions for menu handling, list generation, and sorting logic.
+Program Flow:
+
+Menu Interaction:
+The user selects an option from the menu.
+List Generation:
+If option 1 is chosen, a list of random numbers is generated and displayed.
+Sorting:
+If option 2 or 3 is selected, the user specifies a step frequency (s). The program then sorts the list using the chosen algorithm and displays intermediate results at each step.
+Exit:
+Option 4 exits the program gracefully.
+Why This Program Stands Out:
+
+Educational Value: Offers a clear understanding of how sorting algorithms work by allowing users to see the process step-by-step.
+Practical Implementation: Demonstrates real-world programming skills such as list manipulation, recursion, and modular design.
+Interactivity: Engages the user through its dynamic interface and customizable settings.
+This assignment showcases my ability to write modular, interactive, and educational programs, blending theoretical concepts with practical implementation.
