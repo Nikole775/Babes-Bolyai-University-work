@@ -16,6 +16,20 @@ Generate the Largest Perfect Number Smaller than a Given Number
 Determines the largest perfect number below a given natural number n.
 Perfect numbers are those equal to the sum of their proper divisors (e.g., 6 = 1 + 2 + 3).
 Features logic for calculating divisors and validating perfect numbers.
+
+Find the Largest Natural Number with the Same Digits (p1.2)
+
+Rearranges the digits of a given natural number n to form the largest possible number.
+Example: For n=3658, the result is 8653.
+Find the Smallest Fibonacci Number Larger than a Given Number (p2.2)
+
+Calculates the smallest number in the Fibonacci sequence that is greater than the given natural number n.
+Example: For n=6, the result is 8.
+Calculate the Age in Days (p3.2)
+
+Determines a person’s age in days, given their birthdate and the current date.
+Accounts for leap years and validates input without using built-in date/time functions.
+
 Skills Developed:
 
 Basic Python syntax and constructs: loops, conditionals, and functions.
