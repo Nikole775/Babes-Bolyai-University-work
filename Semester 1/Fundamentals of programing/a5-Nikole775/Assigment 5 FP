@@ -1,0 +1,48 @@
+This project is a comprehensive exploration of complex number manipulations and array analysis techniques using Python. The assignment focuses on leveraging functions, modular design, and algorithmic logic to perform a variety of operations on complex numbers and analyze their sequences. The program seamlessly integrates user interaction through a menu-driven console interface, offering practical insights into computational tasks.
+
+Key Features:
+Complex Number Operations:
+Dual representations of complex numbers using both lists and dictionaries, enabling flexibility and extensibility.
+Functions to:
+Create a new complex number with real and imaginary parts.
+Access and modify the real and imaginary parts of a complex number.
+Convert a complex number into its string representation in z=a+bi form.
+Subarray and Subsequence Analysis:
+The program implements two sets of problems, one with a naïve approach and another using dynamic programming, to analyze properties of sequences of complex numbers.
+
+Set A: Subarray Analysis (Naïve Implementation)
+Longest subarray where the difference between the modulus of consecutive numbers is a prime number.
+Leverages modulus computation and prime-checking for efficient analysis.
+Ensures modularity by separating logical functions from input/output, adhering to best programming practices.
+Set B: Subsequence Analysis (Dynamic Programming)
+Longest alternating subsequence based on the real parts of the numbers.
+Alternates between increasing and decreasing values in the subsequence.
+Optimized with a dynamic programming table, minimizing computational overhead.
+Program Highlights:
+Random Number Generation:
+Automatically generates a list of 10 complex numbers at startup for testing functionalities.
+
+Intuitive User Interface:
+
+Menu-driven console interface for seamless navigation.
+Clear prompts for operations like reading, displaying, and analyzing sequences.
+Strict Functional Design:
+
+All input/output is confined to dedicated functions, ensuring separation of concerns.
+Reusable functions for computations, making the code maintainable and scalable.
+Learning Outcomes:
+This assignment emphasizes:
+
+Efficient Handling of Complex Numbers:
+Gain hands-on experience in managing multiple data representations and performing mathematical operations on complex numbers.
+
+Algorithm Design:
+Develop and compare naïve and dynamic programming solutions for subarray and subsequence problems, building a deeper understanding of their complexities.
+
+Best Practices in Programming:
+Learn modular programming, the importance of separation between logic and UI, and maintaining clean, reusable code structures.
+
+Problem-Solving Skills:
+Tackle real-world problems involving number analysis, sequence identification, and prime number logic.
+
+This project is a perfect amalgamation of theoretical concepts and practical implementation, providing an engaging way to explore complex number operations and sequence properties in programming.
