@@ -1,0 +1,24 @@
+This assignment marked the beginning of my programming journey, focusing on solving mathematical problems using Python. It includes three programs that apply logical reasoning, loops, and conditional structures to address different challenges involving prime numbers and perfect numbers.
+
+Tasks:
+
+Generate the Largest Prime Number Smaller than a Given Number
+
+Program finds the largest prime number less than a user-provided natural number n.
+If no such number exists, it informs the user.
+Demonstrates knowledge of loops, prime checking logic, and user input handling.
+Find Twin Primes Larger than a Given Number
+
+Identifies the first pair of twin primes (p1, p2) greater than a given natural number n, where p2 - p1 = 2.
+Implements iterative logic and efficient prime checking.
+Generate the Largest Perfect Number Smaller than a Given Number
+
+Determines the largest perfect number below a given natural number n.
+Perfect numbers are those equal to the sum of their proper divisors (e.g., 6 = 1 + 2 + 3).
+Features logic for calculating divisors and validating perfect numbers.
+Skills Developed:
+
+Basic Python syntax and constructs: loops, conditionals, and functions.
+Problem-solving strategies in mathematical programming.
+User input handling and validation.
+This assignment serves as a testament to my foundational understanding of Python programming and my ability to translate mathematical concepts into functional code.
