@@ -1,0 +1,30 @@
+This project is a feature-rich, menu-driven console application designed to manage a list of students. It offers functionalities for adding, displaying, filtering, and undoing operations on a student list, all while providing flexibility in data persistence through multiple repository implementations.
+
+The program follows clean architecture principles with classes dedicated to UI, Services, Domain Entities, and Repositories, ensuring modularity and maintainability.
+
+Key Features:
+
+Student Management:
+
+Add new students with unique IDs, names, and group numbers.
+Display the complete list of students in the repository.
+Filter and delete students belonging to a specified group.
+Undo the last operation, with support for multiple consecutive undos.
+Repository Implementations:
+
+MemoryRepository: Stores student data in memory during runtime.
+TextFileRepository: Persists data in plain text files.
+BinaryFileRepository: Uses Pickle for binary object serialization.
+Preloaded Data:
+
+The application initializes with 10 programmatically generated student entries, automatically saved to the selected repository type.
+Unit Testing:
+
+Comprehensive tests for non-UI functionalities to ensure correctness and reliability.
+Usage: This project is ideal for those exploring object-oriented programming, repository patterns, and flexible data storage solutions. With its intuitive menu interface, the system simplifies student data management while demonstrating clean design principles.
+
+Technical Stack:
+
+Language: Python
+Libraries: Pickle for serialization
+Persistence Options: Memory, Text Files, Binary Files
