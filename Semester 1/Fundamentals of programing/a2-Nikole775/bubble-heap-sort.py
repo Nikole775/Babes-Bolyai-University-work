@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 import random
 def print_menu():
@@ -72,14 +68,6 @@ def heapMain(list,s):
             steps = 0
         heapify(list2, root, 0,s,steps)
     print("the sorted list: ",list2)
-
-
-
-
-
-
-
-
 
 def start():
     ok=0
