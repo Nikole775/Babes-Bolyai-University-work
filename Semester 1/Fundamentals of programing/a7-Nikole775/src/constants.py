@@ -1,0 +1,10 @@
+students_number = 10
+id_lower_bound = 1000
+id_upper_bound = 9999
+first_group = 900
+last_group = 930
+minimum_program_state = 1
+last_program_state = -1
+id_argument = 0
+name_argument = 1
+group_argument = 2
