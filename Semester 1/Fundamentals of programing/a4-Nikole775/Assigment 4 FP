@@ -1,0 +1,39 @@
+This project demonstrates the power of Backtracking and Dynamic Programming techniques in solving complex computational problems. The assignment features two distinct problem statements, each solved using a different paradigm. It provides an opportunity to explore algorithm design, computational complexity, and performance optimization through practical implementation.
+
+Backtracking: Coin Payment Modalities
+Problem:
+Given a set of coins with values a1, a2, a3, ...., an  and a target sum 𝑠, the goal is to display all possible ways to pay the exact sum 𝑠 using these coins. If no solution exists, a message is displayed.
+Solution:
+
+Implemented both iterative and recursive backtracking algorithms to generate valid combinations.
+Recursive Approach: Utilizes a depth-first search to explore all coin combinations and backtracks when the sum exceeds the target.
+Iterative Approach: Employs a stack to simulate recursion, iteratively finding all valid combinations.
+Detailed outputs are provided for all combinations or a failure message if no solutions are found.
+Key Highlights:
+
+Recursive and iterative implementations showcase the flexibility of the backtracking paradigm.
+Clear separation of concerns ensures modular and reusable code.
+Computational complexity analysis provided to understand runtime behavior.
+Dynamic Programming: Minimal Difference Subset Partition
+Problem:
+Given a set of positive integers, partition the set into two subsets S1 and S2 such that the absolute difference between the sums of elements in S1 and S2 is minimized.
+
+Solution:
+
+Naive Approach: Exhaustively evaluates all possible subsets using combinatorics to find the optimal partition.
+Dynamic Programming Approach: Uses a 2D table to store intermediate results, reducing redundant calculations and improving efficiency.
+The table tracks achievable sums and reconstructs subsets for the closest possible balance.
+Outputs the subsets and their sums for better understanding of the solution.
+Key Highlights:
+
+Optimized and non-optimized versions demonstrate the importance of memoization in reducing time complexity.
+Detailed explanation of the DP table structure, with step-by-step reconstruction of subsets.
+Focus on understanding and explaining computational complexity for both implementations.
+Learning Outcomes:
+This assignment emphasizes:
+
+The application of Backtracking and Dynamic Programming paradigms to real-world problems.
+Developing a strong intuition for algorithmic complexity and runtime optimization.
+Enhancing problem-solving skills by implementing multiple approaches to the same problem.
+Understanding the importance of modular and reusable code design.
+Ideal for anyone interested in algorithmic programming, this assignment showcases the versatility of these paradigms while solving computationally challenging problems.
